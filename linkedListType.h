@@ -33,7 +33,7 @@ public:
         nodeType<Type>* current = first;
         while (current != nullptr)
         {
-            std::cout << current->info << " ";
+            std::cout << current->info << " " << std::endl;
             current = current->link;
         }
         std::cout << std::endl;
